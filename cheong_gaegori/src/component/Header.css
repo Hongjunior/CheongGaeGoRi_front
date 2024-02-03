@@ -1,0 +1,16 @@
+/* Header.css */
+
+.logo_container {
+    margin-right: 10px; /* 원하는 간격 설정 */
+  }
+  
+  .logo_image {
+    width: 200px; /* 이미지 크기 조절 */
+    height: auto;
+    /* 다른 스타일 설정 */
+  }
+  
+  p {
+    /* p 태그에 대한 추가적인 스타일 설정 가능 */
+  }
+  

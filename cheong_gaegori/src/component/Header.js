@@ -1,4 +1,5 @@
 import '../index.css';
+import './Header.css'; // Header.css를 import
 
 export default function Header() {
   return (
@@ -6,7 +7,7 @@ export default function Header() {
       <span className='logo_container'>
         <img className='logo_image' src='/cheong_logo.jpeg' alt='cute' />
       </span>
-      <p>hello? It's me! Mario!</p>
+      <p>청개고리</p>
     </div>
   );
 }
