@@ -83,13 +83,13 @@ code {
 
 h1{
   font-family: 'Istok Web', sans-serif;
-  font-size: --display1;
+  font-size: var(--display3);
   color: var(--text---heading---dark);
 }
 
 h2{
   font-family: 'Istok Web', sans-serif;
-  font-size: --display2;
+  font-size: var(--heading1);
   color: var(--text---heading---dark);
 }
 
@@ -99,8 +99,14 @@ h6{
   color: var(--text---body---dark);
 }
 
+a{
+  font-family: 'Istok Web', sans-serif;
+  font-size: var(--extra--large--text);
+}
+
 p{
   font-family: 'Istok Web', sans-serif;
   font-size: var(--small-button-size);
   color: var(--text---body---dark);
 }
+
