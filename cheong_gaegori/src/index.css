@@ -83,21 +83,13 @@ code {
 
 h1{
   font-family: 'Istok Web', sans-serif;
-<<<<<<< HEAD
   font-size: var(--display3);
-=======
-  font-size: --display1;
->>>>>>> bc6c91c1e6447731191ed635366472906c547b34
   color: var(--text---heading---dark);
 }
 
 h2{
   font-family: 'Istok Web', sans-serif;
-<<<<<<< HEAD
   font-size: var(--heading1);
-=======
-  font-size: --display2;
->>>>>>> bc6c91c1e6447731191ed635366472906c547b34
   color: var(--text---heading---dark);
 }
 
@@ -107,21 +99,13 @@ h6{
   color: var(--text---body---dark);
 }
 
-<<<<<<< HEAD
 a{
   font-family: 'Istok Web', sans-serif;
   font-size: var(--extra--large--text);
 }
 
-=======
->>>>>>> bc6c91c1e6447731191ed635366472906c547b34
 p{
   font-family: 'Istok Web', sans-serif;
   font-size: var(--small-button-size);
   color: var(--text---body---dark);
-<<<<<<< HEAD
 }
-
-=======
-}
->>>>>>> bc6c91c1e6447731191ed635366472906c547b34
