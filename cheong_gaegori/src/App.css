@@ -22,10 +22,8 @@ button {
   background-color: #ff0000; /* 원하는 색상으로 변경하세요 */
 }
 
-<<<<<<< Updated upstream
 button:hover {
   background: #8BD2BA;
-=======
 .circle {
   position: absolute;
   width: 20px;
@@ -37,5 +35,5 @@ button:hover {
   opacity: 0;
   transition: opacity 0.3s; /* 추가: 투명도에 대한 트랜지션 */
   background-color: #ff0000; /* 원하는 색상으로 변경하세요 */
->>>>>>> Stashed changes
+}
 }
