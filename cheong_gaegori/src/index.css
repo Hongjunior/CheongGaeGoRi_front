@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
+
 body {
   margin: 0;
-  font-family: 'Istok Web', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'IBM Plex Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -8,7 +10,7 @@ body {
 }
 
 code {
-  font-family: 'Istok Web', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: 'IBM Plex Sans KR', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
@@ -82,25 +84,25 @@ code {
 }
 
 h1 {
-  font-family: 'Istok Web', sans-serif;
+  font-family: 'IBM Plex Sans KR', sans-serif;
   font-size: var(--display1);
   color: var(--text---heading---dark);
 }
 
 h2 {
-  font-family: 'Istok Web', sans-serif;
+  font-family: 'IBM Plex Sans KR', sans-serif;
   font-size: var(--display2);
   color: var(--text---heading---dark);
 }
 
 h6 {
-  font-family: 'Istok Web', sans-serif;
+  font-family: 'IBM Plex Sans KR', sans-serif;
   font-size: var(--heading6);
   color: var(--text---body---dark);
 }
 
 p {
-  font-family: 'Istok Web', sans-serif;
+  font-family: 'IBM Plex Sans KR', sans-serif;
   font-size: var(--heading2);
   color: var(--text---body---dark);
 }
