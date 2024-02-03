@@ -104,3 +104,13 @@ p{
   font-size: var(--small-button-size);
   color: var(--text---body---dark);
 }
+
+.logo_container {
+  display: inline-block;
+  margin-right: 10px; /* 이미지와 텍스트 사이 여백 조절 */
+}
+
+.logo_image{
+  width: 200px;
+  height: auto;
+}
