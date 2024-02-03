@@ -1,16 +1,26 @@
 /* Header.css */
 
-.logo_container {
-    margin-right: 10px; /* 원하는 간격 설정 */
-  }
-  
-  .logo_image {
-    width: 200px; /* 이미지 크기 조절 */
-    height: auto;
-    /* 다른 스타일 설정 */
-  }
-  
-  p {
-    /* p 태그에 대한 추가적인 스타일 설정 가능 */
-  }
-  
+.request-button,
+.free-button,
+.activity-button,
+.MYPAGE-button,
+.FAG-button {
+  /* 공통된 버튼 스타일 */
+  background-color: transparent;
+  color: #000000; /* 버튼 텍스트 색상 설정 */
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s, background-color 0.3s; /* 트랜지션 추가 */
+  text-decoration: none; /* 밑줄 제거 */
+}
+
+.request-button:hover,
+.free-button:hover,
+.activity-button:hover,
+.MYPAGE-button:hover,
+.FAG-button:hover {
+  color: #33C69A; /* 버튼 hover 상태일 때 글씨 색상 변경 */
+  background-color: transparent; /* 버튼 hover 상태일 때 배경 색상을 투명으로 설정 */
+  /* hover 상태일 때의 스타일 설정 */
+}
