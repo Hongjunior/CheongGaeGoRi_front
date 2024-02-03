@@ -15,7 +15,11 @@ function App() {
       <h6>hello, World!</h6>
       <a>hello, World!</a>
       <p>hello, World!</p>
-      <button onClick={handleButtonClick}>글쓰기</button>
+      <div className="Vector">
+        <button onClick={handleButtonClick}>글쓰기</button>
+        <div className="Group-2608526"></div>
+        <div className="circle"></div>
+      </div>
     </div>
   );
 }
