@@ -1,10 +1,1895 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Typography */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 30px;
+gap: 30px;
+
+position: relative;
+left: 0.98%;
+right: 93.89%;
+top: 4.28%;
+bottom: 38.3%;
+
+background: #FFFFFF;
+
+
+/* docs/heading-page */
+
+width: 1177px;
+height: 94px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Stroke Horizontal */
+
+position: absolute;
+height: 1px;
+left: 0px;
+right: -2px;
+bottom: -1px;
+
+/* Gray/300 */
+background: #E2E8F0;
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+/* Content */
+
+position: absolute;
+width: 926px;
+height: 41.62px;
+left: 0px;
+top: 9px;
+
+
+
+/* Title */
+
+position: absolute;
+height: 41.62px;
+left: 0px;
+right: 251px;
+top: 9px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 136.02%;
+/* or 49px */
+
+/* Text/Heading/Dark */
+color: #27272E;
+
+
+
+/* Logo */
+
+position: absolute;
+visibility: hidden;
+width: 104.58px;
+height: 30px;
+right: 0.42px;
+top: 15px;
+
+
+
+/* docs/heading-section */
+
+width: 1177px;
+height: 67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Title */
+
+position: absolute;
+height: 27px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+/* Headings/h3 */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 136.52%;
+/* or 27px */
+
+/* Theme/Warning/Default */
+color: #F7936F;
+
+
+
+/* Text */
+
+position: absolute;
+height: 30px;
+left: 0px;
+right: 0px;
+top: 36px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height, or 167% */
+
+/* Text/Body/Muted */
+color: #718096;
+
+
+
+/* dropdown-spacer */
+
+width: 1177px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* row-typo */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 30px;
+
+width: 1139px;
+height: 185px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* bold */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 30px;
+gap: 30px;
+
+width: 364px;
+height: 185px;
+
+/* Surface/Secondary */
+background: #F7FAFC;
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 306 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px 24px;
+
+width: 137px;
+height: 136px;
+
+/* Theme/White/Default */
+background: #FFFFFF;
+/* Shadow/shadow-lg */
+box-shadow: 0px 0px 1px rgba(12, 26, 75, 0.1), 0px 10px 16px rgba(20, 37, 63, 0.06);
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Aa */
+
+width: 89px;
+height: 104px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 104px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/Heading/Dark */
+color: #27272E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 306 */
+
+width: 137px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Inter */
+
+position: absolute;
+width: 137px;
+height: 27px;
+left: 197px;
+top: 64.5px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 136.52%;
+/* or 27px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Bold */
+
+position: absolute;
+width: 104.24px;
+height: 26px;
+left: 197px;
+top: 94.5px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 162.02%;
+/* identical to box height, or 26px */
+display: flex;
+align-items: center;
+font-feature-settings: 'salt' on;
+
+/* Text/Body/Muted */
+color: #718096;
+
+
+
+/* semibold */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 30px;
+gap: 30px;
+
+width: 354px;
+height: 185px;
+
+/* Surface/Secondary */
+background: #F7FAFC;
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 306 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px 24px;
+
+width: 127px;
+height: 124px;
+
+/* Theme/White/Default */
+background: #FFFFFF;
+/* Shadow/shadow-lg */
+box-shadow: 0px 0px 1px rgba(12, 26, 75, 0.1), 0px 10px 16px rgba(20, 37, 63, 0.06);
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Aa */
+
+width: 79px;
+height: 92px;
+
+/* Display3 */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 92px;
+display: flex;
+align-items: center;
+
+/* Text/Heading/Dark */
+color: #27272E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 306 */
+
+width: 137px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Inter */
+
+position: absolute;
+width: 137px;
+height: 27px;
+left: 187px;
+top: 64.5px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 136.52%;
+/* or 27px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Semibold */
+
+position: absolute;
+width: 104.24px;
+height: 26px;
+left: 187px;
+top: 94.5px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 162.02%;
+/* identical to box height, or 26px */
+display: flex;
+align-items: center;
+font-feature-settings: 'salt' on;
+
+/* Text/Body/Muted */
+color: #718096;
+
+
+
+/* regular */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 30px;
+gap: 30px;
+
+width: 361px;
+height: 185px;
+
+/* Surface/Secondary */
+background: #F7FAFC;
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 306 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px 24px;
+
+width: 134px;
+height: 136px;
+
+/* Theme/White/Default */
+background: #FFFFFF;
+/* Shadow/shadow-lg */
+box-shadow: 0px 0px 1px rgba(12, 26, 75, 0.1), 0px 10px 16px rgba(20, 37, 63, 0.06);
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Aa */
+
+width: 86px;
+height: 104px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 104px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Text/Heading/Dark */
+color: #27272E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 306 */
+
+width: 137px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Inter */
+
+position: absolute;
+width: 137px;
+height: 27px;
+left: 194px;
+top: 64.5px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 136.52%;
+/* or 27px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+
+/* Regular */
+
+position: absolute;
+width: 104.24px;
+height: 26px;
+left: 194px;
+top: 94.5px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 162.02%;
+/* identical to box height, or 26px */
+display: flex;
+align-items: center;
+font-feature-settings: 'salt' on;
+
+/* Text/Body/Muted */
+color: #718096;
+
+
+
+/* dropdown-spacer */
+
+width: 1177px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* row-alphabet  */
+
+width: 1177px;
+height: 92px;
+
+/* Display2 */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 92px;
+/* identical to box height, or 128% */
+
+/* Text/Heading/Dark */
+color: #27272E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* dropdown-spacer */
+
+width: 1177px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* docs/heading-section */
+
+width: 1177px;
+height: 67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Title */
+
+position: absolute;
+height: 27px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 136.52%;
+/* or 27px */
+
+/* Theme/Warning/Default */
+color: #F7936F;
+
+
+
+/* Text */
+
+position: absolute;
+height: 30px;
+left: 0px;
+right: 0px;
+top: 36px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height, or 167% */
+
+/* Text/Body/Muted */
+color: #718096;
+
+
+
+/* row-displays */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+width: 332px;
+height: 642px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+align-self: flex-start;
+flex-grow: 0;
+
+
+/* Display 1/Left/Light */
+
+width: 332px;
+height: 100px;
+
+/* Display1 */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 100px;
+/* identical to box height, or 125% */
+
+/* Text/Heading/Dark */
+color: #27272E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Display 2/Left/Light */
+
+width: 309px;
+height: 92px;
+
+/* Display2 */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 92px;
+/* identical to box height, or 128% */
+
+/* Text/Heading/Dark */
+color: #27272E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display 3/Left/Light */
+
+width: 274px;
+height: 92px;
+
+/* Display3 */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 92px;
+
+/* Text/Heading/Dark */
+color: #27272E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Display 4/Left/Light */
+
+width: 240px;
+height: 81px;
+
+/* Display4 */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 81px;
+/* identical to box height */
+
+/* Text/Heading/Dark */
+color: #27272E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Display 4/Left/Light */
+
+width: 206px;
+height: 69px;
+
+/* Display5 */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 69px;
+/* identical to box height */
+
+/* Text/Heading/Dark */
+color: #27272E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Display 4/Left/Light */
+
+width: 172px;
+height: 58px;
+
+/* Display6 */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 58px;
+/* identical to box height */
+
+/* Text/Heading/Dark */
+color: #27272E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* dropdown-spacer */
+
+width: 1177px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 9;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* row-headings */
+
+width: 1040px;
+height: 419px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 10;
+flex-grow: 0;
+
+
+/* docs/heading-section */
+
+position: absolute;
+width: 1040px;
+height: 67px;
+left: 30px;
+top: 1597px;
+
+
+
+/* Title */
+
+position: absolute;
+height: 27px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 136.52%;
+/* or 27px */
+
+/* Theme/Warning/Default */
+color: #F7936F;
+
+
+
+/* Text */
+
+position: absolute;
+height: 30px;
+left: 0px;
+right: 0px;
+top: 36px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height, or 167% */
+
+/* Text/Body/Muted */
+color: #718096;
+
+
+
+/* Frame 7 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+position: absolute;
+width: 185px;
+height: 322px;
+left: 30px;
+top: 1694px;
+
+
+
+/* Heading 1 */
+
+width: 185px;
+height: 43px;
+
+/* Heading1 */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 136.02%;
+/* or 49px */
+
+/* Text/Heading/Dark */
+color: #27272E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Heading 2 */
+
+width: 153px;
+height: 35px;
+
+/* Heading2 */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 136.02%;
+/* or 38px */
+
+/* Text/Heading/Dark */
+color: #27272E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Heading 3 */
+
+width: 105px;
+height: 32px;
+
+/* Heading3 */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 136.52%;
+/* or 27px */
+
+/* Text/Heading/Dark */
+color: #27272E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Heading 4 */
+
+width: 94px;
+height: 23px;
+
+/* Heading4 */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 26px;
+letter-spacing: -0.005em;
+
+/* Text/Heading/Dark */
+color: #27272E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Heading 5 */
+
+width: 92px;
+height: 23px;
+
+/* Heading5 */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 25px;
+/* or 156% */
+
+/* Text/Heading/Dark */
+color: #27272E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Heading 6 */
+
+width: 77px;
+height: 16px;
+
+/* Heading6 */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+/* Text/Heading/Dark */
+color: #27272E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* dropdown-spacer */
+
+width: 1177px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 11;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* docs/heading-section */
+
+width: 1177px;
+height: 67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 12;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Title */
+
+position: absolute;
+height: 27px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 136.52%;
+/* or 27px */
+
+/* Theme/Warning/Default */
+color: #F7936F;
+
+
+
+/* Text */
+
+position: absolute;
+height: 30px;
+left: 0px;
+right: 0px;
+top: 36px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height, or 167% */
+
+/* Text/Body/Muted */
+color: #718096;
+
+
+
+/* This is the default font size. If you need different sizes, check out the pre-defined style below. */
+
+width: 674px;
+height: 26px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 162.02%;
+/* identical to box height, or 26px */
+font-feature-settings: 'salt' on;
+
+/* Text/Body/Light */
+color: #425466;
+
+
+/* Inside auto layout */
+flex: none;
+order: 13;
+flex-grow: 0;
+
+
+/* Make a paragraph stand out by adding .lead */
+
+width: 355px;
+height: 30px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height, or 167% */
+
+/* Text/Body/Light */
+color: #425466;
+
+
+/* Inside auto layout */
+flex: none;
+order: 14;
+flex-grow: 0;
+
+
+/* dropdown-spacer */
+
+width: 1177px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 15;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* row */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+width: 774px;
+height: 340px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 16;
+flex-grow: 0;
+
+
+/* Extra Large Text */
+
+width: 241px;
+height: 35px;
+
+/* Extra Large Text */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 136.02%;
+/* or 38px */
+
+/* Text/Body/Dark */
+color: #425466;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Large Text */
+
+width: 153px;
+height: 35px;
+
+/* Large Text */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 136.02%;
+/* or 27px */
+
+/* Text/Body/Dark */
+color: #425466;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Small Text */
+
+width: 94px;
+height: 23px;
+
+/* Small Text */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 23px;
+/* identical to box height, or 164% */
+font-feature-settings: 'salt' on;
+
+/* Text/Body/Dark */
+color: #425466;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Extra Small Text */
+
+width: 139px;
+height: 22px;
+
+/* Extra Small Text */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* or 167% */
+
+/* Text/Body/Dark */
+color: #425466;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* small */
+
+width: 53px;
+height: 14px;
+
+/* small */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 14px;
+
+/* Text/Body/Dark */
+color: #425466;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Surtitle */
+
+width: 70px;
+height: 14px;
+
+/* Surtitle */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+text-transform: uppercase;
+
+/* Text/Body/Dark */
+color: #425466;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* Caption */
+
+width: 53px;
+height: 17px;
+
+/* Caption */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 17px;
+
+/* Text/Body/Dark */
+color: #425466;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+
+/* dropdown-spacer */
+
+width: 1177px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 17;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* docs/heading-section */
+
+width: 1177px;
+height: 67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 18;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Title */
+
+position: absolute;
+height: 27px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 136.52%;
+/* or 27px */
+
+/* Theme/Warning/Default */
+color: #F7936F;
+
+
+
+/* Text */
+
+position: absolute;
+height: 30px;
+left: 0px;
+right: 0px;
+top: 36px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height, or 167% */
+
+/* Text/Body/Muted */
+color: #718096;
+
+
+
+/* row-buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+width: 116px;
+height: 96px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 19;
+flex-grow: 0;
+
+
+/* Large button size */
+
+width: 116px;
+height: 14px;
+
+/* Large button size */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+
+color: #27272E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Base button size */
+
+width: 95px;
+height: 12px;
+
+/* Base button size */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 12px;
+/* identical to box height, or 100% */
+
+color: #27272E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Small button size */
+
+width: 82px;
+height: 10px;
+
+/* Small button size */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 10px;
+/* identical to box height, or 100% */
+letter-spacing: -0.005em;
+
+color: #27272E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* dropdown-spacer */
+
+width: 1177px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 20;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* docs/heading-section */
+
+width: 1177px;
+height: 67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 21;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Title */
+
+position: absolute;
+height: 27px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 136.52%;
+/* or 27px */
+
+/* Theme/Warning/Default */
+color: #F7936F;
+
+
+
+/* Text */
+
+position: absolute;
+height: 30px;
+left: 0px;
+right: 0px;
+top: 36px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height, or 167% */
+
+/* Text/Body/Muted */
+color: #718096;
+
+
+
+/* row-text-colors */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 30px;
+
+width: 1177px;
+height: 189px;
+
+/* Surface/Secondary */
+background: #F7FAFC;
+
+/* Inside auto layout */
+flex: none;
+order: 22;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Headings color */
+
+width: 1412.45px;
+height: 27px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 136.02%;
+/* or 38px */
+
+/* Text/Heading/Dark */
+color: #27272E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Default body color */
+
+width: 1690px;
+height: 27px;
+
+/* Text/Body/Light */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 136.02%;
+/* or 27px */
+
+/* Text/Body/Dark */
+color: #425466;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Muted text */
+
+width: 1690px;
+height: 27px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 136.02%;
+/* or 27px */
+
+/* Text/Body/Muted */
+color: #718096;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* row-text-colors */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 30px;
+
+width: 1177px;
+height: 189px;
+
+/* Theme/Dark/Default */
+background: #16192C;
+
+/* Inside auto layout */
+flex: none;
+order: 23;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Headings color */
+
+width: 1412.45px;
+height: 27px;
+
+/* Headings/h2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 136.02%;
+/* or 38px */
+
+/* Text/Heading/Light */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Default body color */
+
+width: 1690px;
+height: 27px;
+
+/* Text/Large/Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 136.02%;
+/* or 27px */
+
+color: #F2F2F2;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Muted text */
+
+width: 1690px;
+height: 27px;
+
+/* Text/Large/Regular */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 136.02%;
+/* or 27px */
+
+/* Text/Body/Muted */
+color: #718096;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* dropdown-spacer */
+
+width: 1177px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 24;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* docs/heading-section */
+
+width: 1177px;
+height: 67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 25;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Title */
+
+position: absolute;
+height: 27px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+/* Heading3 */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 136.52%;
+/* or 27px */
+
+/* Theme/Warning/Default */
+color: #F7936F;
+
+
+
+/* Text */
+
+position: absolute;
+height: 27px;
+left: 0px;
+right: 0px;
+top: 36px;
+
+/* Large Text */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 136.02%;
+/* or 27px */
+
+/* Text/Body/Muted */
+color: #718096;
+
+
+
+/* row-accent-colors */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+width: 137px;
+height: 141px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 26;
+flex-grow: 0;
+
+
+/* Primary Text */
+
+width: 112px;
+height: 27px;
+
+/* Large Text */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 136.02%;
+/* or 27px */
+
+/* Theme/Primary/Solids */
+color: #33C69A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Secondary Text */
+
+width: 137px;
+height: 27px;
+
+/* Large Text */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 136.02%;
+/* or 27px */
+
+/* Theme/Secondary/Default */
+color: #E4ECF7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Danger Text */
+
+width: 108px;
+height: 27px;
+
+/* Large Text */
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 136.02%;
+/* or 27px */
+
+/* Theme/Danger/Default */
+color: #F16063;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
 }
 
 code {
