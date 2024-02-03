@@ -80,3 +80,27 @@ code {
   --shadow--drop--4:  0px 4px 20px rgba(50, 50, 71, 0.08), 0px 8px 10px rgba(12, 26, 75, 0.1);
 
 }
+
+h1{
+  font-family: 'Istok Web', sans-serif;
+  font-size: --display1;
+  color: var(--text---heading---dark);
+}
+
+h2{
+  font-family: 'Istok Web', sans-serif;
+  font-size: --display2;
+  color: var(--text---heading---dark);
+}
+
+h6{
+  font-family: 'Istok Web', sans-serif;
+  font-size: var(--heading6);
+  color: var(--text---body---dark);
+}
+
+p{
+  font-family: 'Istok Web', sans-serif;
+  font-size: var(--small-button-size);
+  color: var(--text---body---dark);
+}
