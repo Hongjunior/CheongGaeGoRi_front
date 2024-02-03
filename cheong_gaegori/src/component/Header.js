@@ -1,7 +1,6 @@
-/* Header.js */
-
+import React from 'react';
 import '../index.css';
-import './Header.css'; // Header.css를 import
+import './Header.css';
 
 export default function Header() {
   return (

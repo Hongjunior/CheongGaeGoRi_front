@@ -3,13 +3,10 @@ import './App.css';
 import Header from './component/Header';
 
 function App() {
-  const handleButtonClick = () => {
-    alert('Button Clicked!');
-  };
-
   return (
     <div className='App'>
       <Header />
+      <h1>hello, World!</h1>
     </div>
   );
 }

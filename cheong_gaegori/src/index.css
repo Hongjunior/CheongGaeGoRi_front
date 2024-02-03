@@ -81,27 +81,27 @@ code {
 
 }
 
-h1{
+h1 {
   font-family: 'Istok Web', sans-serif;
-  font-size: --display1;
+  font-size: var(--display1);
   color: var(--text---heading---dark);
 }
 
-h2{
+h2 {
   font-family: 'Istok Web', sans-serif;
-  font-size: --display2;
+  font-size: var(--display2);
   color: var(--text---heading---dark);
 }
 
-h6{
+h6 {
   font-family: 'Istok Web', sans-serif;
   font-size: var(--heading6);
   color: var(--text---body---dark);
 }
 
-p{
+p {
   font-family: 'Istok Web', sans-serif;
-  font-size: var(--small-button-size);
+  font-size: var(--heading2);
   color: var(--text---body---dark);
 }
 
