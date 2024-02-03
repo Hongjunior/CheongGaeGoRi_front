@@ -1,9 +1,11 @@
-import logo from './logo.svg'
 import React from 'react';
-import './App.css'; 
-import  Header from './component/Header.js';
+import './App.css';
 
 function App() {
+  const handleButtonClick = () => {
+    alert('Button Clicked!');
+  };
+
   return (
     <div className='App'>
       <Header />
@@ -12,9 +14,9 @@ function App() {
       <h6>hello, World!</h6>
       <a>hello, World!</a>
       <p>hello, World!</p>
+      <button onClick={handleButtonClick}>글쓰기</button>
     </div>
   );
 }
 
 export default App;
-
