@@ -7,59 +7,64 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
+import java.util.Optional;
 
 @Controller
+@RequestMapping("/boards")
 public class BoardController {
+
     @Autowired
     private BoardService boardService;
 
-    @GetMapping("/")
-    public String getAllBoards(Model model) {
-        List<Board> boards = boardService.getAllBoards();
-        model.addAttribute("boards", boards);
-        return "board_list";
+    @GetMapping
+    public String getBoards(@RequestParam(defaultValue = "0") int page, Model model) {
+        model.addAttribute("boards", boardService.getBoards(page).getContent());
+        return "boards";
     }
 
-    @GetMapping("/board/{id}")
-    public String getBoardById(@PathVariable Long id, Model model) {
-        Board board = boardService.getBoardById(id);
-        model.addAttribute("board", board);
-        return "board_view";
-    }
-
-    @GetMapping("/newBoard")
-    public String showNewBoardForm(Model model) {
-        model.addAttribute("board", new Board());
-        return "board_write";
-    }
-
-    @PostMapping("/newBoard")
-    public String addNewBoard(@ModelAttribute Board board) {
-        if (board.getTitle() == null || board.getContent() == null) {
-            return "error";
+    @GetMapping("/{id}")
+    public String getBoard(@PathVariable Long id, Model model) {
+        Optional<Board> board = boardService.getBoard(id);
+        if (board.isPresent()) {
+            model.addAttribute("board", board.get());
+            return "board";
+        } else {
+            return "redirect:/boards";
         }
-        boardService.saveBoard(board);
-        return "redirect:/";
     }
 
-    @GetMapping("/board/edit/{id}")
-    public String showEditBoardForm(@PathVariable Long id, Model model) {
-        Board board = boardService.getBoardById(id);
-        model.addAttribute("board", board);
-        return "board_edit";
+    @GetMapping("/new")
+    public String newBoardForm(Model model) {
+        model.addAttribute("board", new Board());
+        return "new-board";
     }
 
-    @PostMapping("/board/edit/{id}")
-    public String editBoard(@PathVariable Long id, @ModelAttribute Board board) {
-        board.setId(id);
-        boardService.saveBoard(board);
-        return "redirect:/";
+    @PostMapping
+    public String createBoard(@ModelAttribute Board board) {
+        boardService.createBoard(board);
+        return "redirect:/boards";
     }
 
-    @GetMapping("/board/delete/{id}")
+    @GetMapping("/{id}/edit")
+    public String editBoardForm(@PathVariable Long id, Model model) {
+        Optional<Board> board = boardService.getBoard(id);
+        if (board.isPresent()) {
+            model.addAttribute("board", board.get());
+            return "new-board";
+        } else {
+            return "redirect:/boards";
+        }
+    }
+
+    @PostMapping("/{id}/edit")
+    public String updateBoard(@PathVariable Long id, @ModelAttribute Board boardDetails) {
+        boardService.updateBoard(id, boardDetails);
+        return "redirect:/boards";
+    }
+
+    @PostMapping("/{id}/delete")
     public String deleteBoard(@PathVariable Long id) {
         boardService.deleteBoard(id);
-        return "redirect:/";
+        return "redirect:/boards";
     }
 }
